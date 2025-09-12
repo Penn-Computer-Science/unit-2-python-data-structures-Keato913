@@ -24,6 +24,24 @@ for k, v in dict.items():
 
 
 
-set = {"Blueberrry", "Banana", "Rasberry"}
-set.add("Cheery")
-print(set)
+set1 = {"Blueberrry", "Banana", "Rasberry", "Apple"}
+set1.add("Cheery")
+print(set1)
+set2 = {"Lemon", "Apple", "Dragonfruit"}
+set2.add("Banana")
+print(set2)
+print("INTERSECTION:")
+print(set1 | set2)
+print("DIFFERENCE")
+print(set1 - set2)
+print("UNION")
+print(set1 & set2)
+
+
+Tupe = ("Red", "Blue", "Green", "Black")
+print(Tupe[0])
+print(Tupe[3])
+for item in Tupe:
+    print(item)
+#Tupe[0] = "Orange"
+#Tuples can't be modified
